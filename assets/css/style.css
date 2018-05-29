@@ -6,10 +6,11 @@
 .navbar-nav{
     margin-left: auto;
     margin-right: 25%;
+    font-size: 14px;
 }
 #HomeImage{
-    height: 220px;
-    width: 200px;
+    height: 180px;
+    width: 160px;
     margin-top: 7px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -21,13 +22,13 @@
     margin-top: 50px; 
 }
 .p-3{
-    margin-top: 85px;
+    margin-top: 52px;
     /* margin-bottom: 0; */
     height: 60px;
     text-align: center;
 }
 .mb-2{
-    margin-bottom: 0;
+    margin-bottom:0px;
 }
 form{
     width: 95%;
@@ -59,4 +60,12 @@ img{
 }
 .row{
     margin-bottom: 20px;
+}
+p{
+    font-size: 17px;
+}
+br{
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 13px; /* change this to whatever height you want it */
 }
