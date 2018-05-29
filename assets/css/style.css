@@ -1,12 +1,13 @@
 .badge-info{
     margin: auto;
-    margin-left: 17%;
+    margin-left: 16.5%;
 }
+
 .navbar-nav{
     margin-left: auto;
     margin-right: 25%;
 }
-img{
+#HomeImage{
     height: 220px;
     width: 200px;
     margin-top: 7px;
@@ -15,242 +16,47 @@ img{
     float: left;
 }
 .card{
-    width: 920px;
+    width: 67%;
     margin: auto;  
     margin-top: 50px; 
 }
 .p-3{
-    margin-top: 90px;
+    margin-top: 85px;
+    /* margin-bottom: 0; */
     height: 60px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #Top{
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 30px;
+.mb-2{
+    margin-bottom: 0;
 }
-#Header{
-    background-color: #ffffff;
-    width: 960px;
-    height: 70px;
+form{
+    width: 95%;
     margin: auto;
-    border-color: #cccccc;
+    margin-top: 0;
 }
-#Name{
-    height: 50px;
-    width: 280px;
-    float: left;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-left: 2px;
+.btn{
+    margin-left: 20px;
 }
-#Nav{
-    height: 43px;
-    width: 243px;
-    float: right;
-    padding-top: 27px;
-    background-color: #ffffff;
-}
-
-#Body{
-    width: 960px;
-    height: 400px;
-    margin: auto;
-    background-color: #ffffff;
-}
-#About{
-    height: 50px;
-    width: 920px;
-    margin: auto;
-    font-weight: bolder;
-    font-size: 30px;
-    padding-top: 20px;
-    color: #4aaaa5;
-    border-bottom: 2px solid #cccccc;
-}
-#Footer, #Copyright{
-    height: 15px;
-    background-color: #666666;
-    position: fixed; bottom: 0; 
-    width: 100%;
-    text-align: center;
-}
-#Copyright{
-    padding-top: 40px;
-    font-size:12px;
-    border-top: 4px solid #4aaaa5;
-    color:#a8a7a7;
-}
-#Footer{
-    border-top: 2px solid #4aaaa5;
-}
-
-li {
-    display: block;
-    height: 18px;
-    width: 80px;
-    text-align: center;
-    background-color: #ffffff;
-    float:left;
-    font-size: 14px;
-}
-li+li{
-    border-left: 1px solid #e0dfdf;
-}
-a:link, a:visited{
-    color: #777777;
-    text-decoration: none;
-}
-a:hover{
-    color: #4aaaa5;
-}
-
 img{
     float: left;
     padding: 0px;
     width: 220px;
     height: 220px;
 }
-#HomeImage{
-    float: left;
-    width: 160px;
-    height: 195px;
-    padding: 0px;
-    padding-top: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-}
-p{
-    padding-right: 20px;
-    padding-left: 20px;
-    color: #777777;
-    
-}
-span{
-    line-height: 25px;
-}
-span br {
-    display: block; /* makes it have a width 
-    content: ""; /* clears default height 
-    margin-top: 10px; /* change this to whatever height you want it 
- }
-body{
-    background-image: url("../images/light_grey.png");
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-input, textarea{
-    width: 916px;
-}
-form{
-    margin: auto;
-    width: 920px;
-    margin-top: 20px;
-    color: #777777;
-}
-#message,#email,#name{
-    margin-top: 4px;
-    border-radius: 4px; 
-    height: 25px;
-    
-}
-#message{
-    height: 100px;
-}
-#submit{
-    width: 90px;
-    height: 30px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    border: none;
-    border-radius: 4px;
-    margin-top: 7px;
-}
-#submit:hover{
-    background-color: #ffffff;
-    color:#4aaaa5 ;
-    border: 2px solid #777777
-}
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ 
-    /* color: rgb(230, 227, 227); 
-    opacity: 0.3; /*Firefox
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 
-    /* color: rgb(230, 227, 227); 
-    opacity: 0.3;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge 
-    /* color: rgb(230, 227, 227); 
-    opacity: 0.3;
-}
-
 .imagename{
     position: absolute;
     width: 220px;
-    height: 35px;
+    height: 55px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 15px;
     margin-top: 150px;
 }
-.One{
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 100px;
-    float: left;    
+.container{
+    padding-left: 25px;
+    padding-right: 5px;
 }
-.Two,.Three,.five,.six{
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 50px;
-    float: left;    
+.row{
+    margin-bottom: 20px;
 }
-.Three,.six{
-    margin-right: 100px;   
-}
- .four{
-    clear:both;
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 100px;
-    float: left;    
-}
-#BodyPort{
-    width: 960px;
-    height: 700px;
-    margin: auto;
-    background-color: #ffffff;
-} */
