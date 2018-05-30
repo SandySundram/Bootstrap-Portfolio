@@ -23,7 +23,6 @@
 }
 .p-3{
     margin-top: 52px;
-    /* margin-bottom: 0; */
     height: 60px;
     text-align: center;
 }
@@ -31,12 +30,9 @@
     margin-bottom:0px;
 }
 form{
-    width: 95%;
+    width: 100%;
     margin: auto;
     margin-top: 0;
-}
-.btn{
-    margin-left: 20px;
 }
 img{
     float: left;
